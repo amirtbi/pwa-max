@@ -8,6 +8,7 @@ self.addEventListener("activate", function (event) {
 });
 
 self.addEventListener("fetch", function (event) {
+    console.log(event)
+    console.log("fetch event", (event.request));
     // console.log("[service worker] fetching something...", event);
-    event.respondWidth("asasa")
 })
