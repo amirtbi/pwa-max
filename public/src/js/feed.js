@@ -44,6 +44,7 @@ function createCard() {
   cardTitleTextElement.textContent = 'San Francisco Trip';
   cardTitle.appendChild(cardTitleTextElement);
   var cardSupportingText = document.createElement('div');
+  cardTitleTextElement.style.color = "white";
   cardSupportingText.className = 'mdl-card__supporting-text';
   cardSupportingText.textContent = 'In San Francisco';
   cardSupportingText.style.textAlign = 'center';
