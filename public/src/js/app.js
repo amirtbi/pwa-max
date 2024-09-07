@@ -1,7 +1,7 @@
 var deferredPrompt;
 if ("serviceWorker" in navigator) {
     navigator.serviceWorker
-        .register("/service-worker.js", { scope: "" })
+        .register("/service-worker.js")
         .then(function () {
             console.log("service worker registered!");
         }).catch(function (e) {
